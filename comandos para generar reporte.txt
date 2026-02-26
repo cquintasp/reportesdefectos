@@ -1,0 +1,30 @@
+https://dev.azure.com/VUCEM/VUCEM%203.0%20Phase%202/_queries/query/71c9a797-c9c6-4a39-a1ef-2bffd62cfaf1/
+exportar el reporte con el query filtroIncidentes Ricardo
+
+cambiar el nombre del archivo exportado a la fecha actual del sistema y la secuencia del día
+
+abrirlo y guardarlo como Excel
+volverlo a exportar a csv
+
+
+copiar el archivo a 
+
+
+C:\NAAT\ejemploPython\issues
+
+ejecutar 
+py .\cargar_defectos_bloquesV2.py .\issues24_02_2026_2.csv .\bloques.csv 2
+
+
+
+C:\NAAT\ejemploPython\issues\reporte-defectos-java
+mvn clean package
+
+java -jar target/reporte-defectos-1.0-SNAPSHOT.jar
+
+Ingrese bloques separados por coma (ej: Bloque 1,Bloque 2): Bloque 1,Bloque2groupE, Bloque2groupF
+Ingrese primera fecha (yyyy-MM-dd): 2026-02-24
+Ingrese primera secuencia: 1
+Ingrese segunda fecha (yyyy-MM-dd): 2026-02-24
+Ingrese segunda secuencia: 2
+
